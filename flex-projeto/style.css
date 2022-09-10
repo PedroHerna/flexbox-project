@@ -134,3 +134,61 @@ header h1{
 #quem-somos img{
     min-width: 420px;
 }
+
+.container-externo{
+    background-color: #122157;
+    width: 100%;
+}
+
+#servicos{
+    flex-direction: column;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+#servicos h2{
+    color:#fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.list-servicos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-servicos .item-servico{
+    text-align: center;
+}
+
+.item-servico a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #122157;
+    font-weight: 700;
+}
+
+.item-servico a:hover{
+    font-size: 16.5px;
+    transition: 0.5s;
+}
+
+.item-servico p{
+    font-weight: 700px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px ;
+    font-weight: bolder;
+}
+
+.item-servico img{
+    margin: auto;
+    width: 80%;
+}
