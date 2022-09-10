@@ -14,6 +14,11 @@ ul li a{
     text-decoration: none;
 }
 
+div img{
+    display: block;
+    width: 100%;
+}
+
 .flex-container{
     display: flex;
     max-width: 992px;
@@ -96,3 +101,36 @@ header h1{
     transition: 0.5s;
 }
 
+#quem-somos{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#quem-somos h2{
+    font-size: 32px;
+    color:#122157;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#quem-somos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right:5px;
+    background-color: #122157;
+    position: relative;
+}
+
+#quem-somos p{
+    font-size: 17px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#quem-somos img{
+    min-width: 420px;
+}
