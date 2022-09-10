@@ -261,3 +261,15 @@ header h1{
     background-color: #122157;
     margin-right: 7px;
 }
+
+footer{
+    background-color: #122157;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
+}
