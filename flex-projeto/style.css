@@ -35,12 +35,20 @@ header .list-items{
     max-width: 260px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul li a{
     color: #fff;
 }
 
+
 header .menu{
     justify-content: space-between;
 }
+
+header h1{
+    font-weight:bolder;
+}
+
+
