@@ -82,7 +82,7 @@ header h1{
     margin-bottom: 22px;
 }
 
-.texto-apresentacao a{
+.btn{
     color: #fff;
     background-color: #122157;
     text-align: center;
@@ -96,7 +96,7 @@ header h1{
     margin-bottom: 10px;
 }
 
-.texto-apresentacao a:hover{
+.btn:hover{
     font-size: 16.5px;
     transition: 0.5s;
 }
@@ -191,4 +191,73 @@ header h1{
 .item-servico img{
     margin: auto;
     width: 80%;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos h2{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-plano{
+    flex: 1;
+    border: 5px solid #122157;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 220px;
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122157;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plano ul li::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #122157;
+    margin-right: 7px;
 }
