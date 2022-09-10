@@ -42,6 +42,11 @@ ul li a{
     color: #fff;
 }
 
+ul li a:hover{
+    font-size: 16.5px;
+    transition: 0.5s;
+}
+
 
 header .menu{
     justify-content: space-between;
@@ -51,4 +56,43 @@ header h1{
     font-weight:bolder;
 }
 
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao{
+    min-height:200px ;
+}
+
+.texto-apresentacao h1{
+    color: #122157;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.texto-apresentacao p{
+    font-size: 17px;
+    margin-bottom: 22px;
+}
+
+.texto-apresentacao a{
+    color: #fff;
+    background-color: #122157;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao a:hover{
+    font-size: 16.5px;
+    transition: 0.5s;
+}
 
